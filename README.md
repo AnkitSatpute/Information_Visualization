@@ -23,4 +23,3 @@ Graphical Fisheye Views of Graphs (1992)
 Graphical Fisheye Views (1993)
 10. Extended above technique for using the current mouse coordinates as focus point
 while moving the pointer.
-
