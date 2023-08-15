@@ -16,7 +16,7 @@ single scatterplot for being highlighted in all plots.
 (paracoords.View class)
 7. Marking technique for highlighting paths.
 (paracords.MouseController)
-8. Extension to above: Movable axes in the horizontal direction.
+8. Extension to above Movable axes in the horizontal direction.
 9. Graphical Fisheye View of Graphs
 basically an implementation of this papers
 Graphical Fisheye Views of Graphs (1992)
