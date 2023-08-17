@@ -1,8 +1,6 @@
 package infovis.gui;
-
 import infovis.diagram.Diagram;
 import infovis.diagram.MenuController;
-
 import java.awt.BorderLayout;
 import java.awt.Cursor;
 import java.awt.Event;
@@ -11,21 +9,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.ItemEvent;
 import java.awt.event.KeyEvent;
-
-import javax.swing.JButton;
-import javax.swing.JDialog;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JMenu;
-import javax.swing.JMenuBar;
-import javax.swing.JMenuItem;
-import javax.swing.JPanel;
-import javax.swing.JSlider;
-import javax.swing.JToggleButton;
-import javax.swing.JToolBar;
-import javax.swing.KeyStroke;
-import javax.swing.SwingConstants;
-
+import javax.swing.*;
 
 public class GUI {
 
