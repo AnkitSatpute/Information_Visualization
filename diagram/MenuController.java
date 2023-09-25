@@ -1,10 +1,7 @@
 package infovis.diagram;
-
 import infovis.diagram.elements.Label;
 import infovis.diagram.elements.Vertex;
-
 import java.awt.Color;
-
 
 public class MenuController {
 	private View view = null;
@@ -26,9 +23,6 @@ public class MenuController {
 		return getMenuController();    
 	}
 	
-	/*
-	 * getter und setter
-	 */
 	public MouseController getMouseControllerAddedToView() {
 		return mouseControllerAddedToView;
 	}
@@ -41,7 +35,8 @@ public class MenuController {
 		return model;
 		/*
 		 * SingletonPattern Part1
-		 */}
+		 */
+	}
 	public void setModel(Model modell) {
 		this.model = modell;
 	}
