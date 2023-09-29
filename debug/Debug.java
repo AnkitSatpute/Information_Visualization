@@ -2,7 +2,6 @@ package infovis.debug;
 
 /**
  * @author patrick.riehmann(at)medien.uni-weimar.de
- * 
  * <p>Helper class to write debug messages.</p>
  * 
  */
