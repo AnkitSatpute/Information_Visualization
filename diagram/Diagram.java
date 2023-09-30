@@ -1,11 +1,8 @@
 package infovis.diagram;
-
 import infovis.gui.GUI;
-
 import javax.swing.SwingUtilities;
 
 /**
- * 
  * @author patrick.riehmann(at)medien.uni-weimar.de
  */
 
