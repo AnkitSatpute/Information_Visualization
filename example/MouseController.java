@@ -9,7 +9,6 @@ public class MouseController implements MouseListener, MouseMotionListener {
 	private Model model = null;
 	
 	public MouseController() {
-		
 	}
 	
 	public void mouseClicked(MouseEvent e) {
@@ -26,17 +25,13 @@ public class MouseController implements MouseListener, MouseMotionListener {
 	}
 
 	public void mouseEntered(MouseEvent e) {
-
 	}
 
 	public void mouseExited(MouseEvent e) {
-
 	}
 
 	public void mousePressed(MouseEvent e) {
-		if (e.getButton() == MouseEvent.BUTTON1){
-			
-		
+		if (e.getButton() == MouseEvent.BUTTON1){	
 		}
 	}
 
@@ -51,18 +46,15 @@ public class MouseController implements MouseListener, MouseMotionListener {
 	}
 
 	public void mouseDragged(MouseEvent e) {
-		
 		if (e.getButton() == MouseEvent.BUTTON1){
 			view.moveBigImage(e);
 		}
-		
 		if (e.getButton() == MouseEvent.BUTTON3){
 			view.scaleBigImage(e);
 		}
 	}
 
 	public void mouseMoved(MouseEvent e) {
-
 	}
 
 	public View getView() {
@@ -80,6 +72,5 @@ public class MouseController implements MouseListener, MouseMotionListener {
 	public void setModel(Model model) {
 		this.model = model;
 	}
-	
 
 }
