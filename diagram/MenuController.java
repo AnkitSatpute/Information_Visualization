@@ -11,7 +11,6 @@ public class MenuController {
 	private static MenuController menuController = null;
 	private MenuController(){
 	}
-	
 	public static MenuController getMenuController(){
 		if (menuController == null){
 			menuController = new MenuController();
@@ -33,9 +32,7 @@ public class MenuController {
 	}
 	public Model getModel() {
 		return model;
-		/*
-		 * SingletonPattern Part1
-		 */
+		/* SingletonPattern Part1 */
 	}
 	public void setModel(Model modell) {
 		this.model = modell;
